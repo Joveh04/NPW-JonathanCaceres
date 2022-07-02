@@ -1,0 +1,416 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  background: rgb(0, 0, 0);
+  border-bottom: solid purple;
+  justify-content: space-between;
+  grid-area: nav;
+}
+nav .logo {
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  height: 80px;
+  font-size: 50%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+  float: right;
+  display: flex;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 50%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: purple;
+}
+
+footer {
+  padding: 1%;
+  font-size: 80%;
+  border-top: 2px solid purple;
+  background: rgb(0, 0, 0);
+  grid-area: footer;
+  margin-bottom: 0%;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Botones*/
+.buttonServicio {
+  width: 25%;
+}
+
+.buttonServicio a:hover {
+  color: purple;
+}
+
+.buttonConoce {
+  padding: 2%;
+}
+
+.buttonConoce a:hover {
+  color: purple;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 10%;
+  background: rgb(0, 0, 0);
+  border-bottom: solid purple;
+  justify-content: space-between;
+  grid-area: nav;
+}
+nav .logo {
+  align-items: center;
+  display: flex;
+  margin-left: 20px;
+  height: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+  float: right;
+  display: flex;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: purple;
+}
+
+/*Inicio*/
+.saludoInicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: violet;
+  flex-direction: column;
+}
+.saludoInicial h1 {
+  color: aliceblue;
+  padding: 3%;
+}
+.saludoInicial .botonConocer {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  background-image: linear-gradient(to left, black, purple);
+  text-decoration: none;
+  color: #000000;
+  border: solid chartreuse;
+  border-radius: 10Px;
+  margin-top: 5%;
+  margin-left: 60%;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+.cartaInicial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(imagenes/imagenDesarrollo.png);
+  background-attachment: fixed;
+}
+
+.card {
+  width: 45%;
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: #2d2b2b;
+}
+.card .card-header {
+  background-color: #000000;
+  color: purple;
+  text-align: center;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-body a:hover {
+  color: purple;
+}
+
+.iconosIndex {
+  width: 100%;
+  background-color: violet;
+}
+
+.infoIndex {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.parrafo2 {
+  grid-row: 3/3;
+  width: 70%;
+  padding: 1%;
+  border: solid 2px purple;
+  border-radius: 4%;
+  color: #fff;
+  background-color: #232222;
+  margin: 1%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.titulo {
+  background-color: violet;
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  grid-column: 1/3;
+}
+
+.parrafo1 {
+  grid-row: 2/2;
+  width: 70%;
+  padding: 1%;
+  border: solid 2px purple;
+  border-radius: 4%;
+  color: #fff;
+  background-color: #232222;
+  margin: 1%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.parrafoIndex3 {
+  grid-row: 2/4;
+  font-size: 50px;
+  color: purple;
+  margin-top: 10%;
+  margin-right: 5%;
+}
+
+/*Conoce*/
+.backgroundQuiensoy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: violet;
+  padding: 5%;
+}
+
+.quienSoy {
+  background-color: rgb(54, 54, 54);
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 2%;
+  width: 80%;
+  font-size: 80%;
+  color: #fff;
+  justify-content: center;
+  border: solid 2px purple;
+}
+
+.titulo {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: violet;
+  flex-direction: column;
+}
+
+.saberMasBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  color: black;
+  background-color: violet;
+  width: 70%;
+  border-radius: 2%;
+  padding: 2%;
+}
+
+.parrafosObjetivosFondo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(54, 54, 54);
+  padding: 0%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.parrafosObjetivosFondo .parrafosObjetivo {
+  padding: 2%;
+  background-color: #fff;
+  display: flex;
+  font-size: 90%;
+  color: purple;
+  width: 80%;
+}
+
+.saberMasBackground p {
+  font-size: 100%;
+}
+
+/* Servicio*/
+.imagenesServicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1%;
+  background-color: #000000;
+}
+
+.imagenesServicio img {
+  margin: 1%;
+  border-radius: 10%;
+}
+
+.contenedorServicioParrafo1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232222;
+  width: 100%;
+  margin: 4%;
+  padding: 2%;
+}
+.contenedorServicioParrafo1 .servicioParrafo1 {
+  background-color: purple;
+  color: #fff;
+  width: 60%;
+  padding: 2%;
+  border-radius: 1%;
+}
+
+.soluciones {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  padding: 2%;
+  background-image: url(imagenes/parallax.png);
+  background-attachment: fixed;
+  background-size: cover;
+  border-top: solid purple;
+  border-bottom: solid purple;
+}
+
+.parrafosGrandes1, .parrafosGrandes3, .parrafosGrandes2 {
+  text-align: center;
+  font-size: 40px;
+  color: purple;
+}
+
+.botonesRedes {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+/*Map para botones que redirigen a Contacto*/
+.btn-twitter {
+  background-color: #55acee;
+}
+
+.btn-facebook {
+  background-color: #3a5795;
+}
+
+.btn-whatsapp {
+  background-color: #30c266;
+}
+
+.btn-twitter {
+  border-radius: 4px;
+  background-color: #55acee;
+  padding: 1%;
+  margin: 2%;
+}
+
+.btn-facebook {
+  border-radius: 4px;
+  background-color: #3a5795;
+  padding: 1%;
+  margin: 2%;
+}
+
+.btn-whatsapp {
+  border-radius: 4px;
+  background-color: #30c266;
+  padding: 1%;
+  margin: 2%;
+}
+
+.whatsApp {
+  width: 50%;
+  display: flex;
+}
+
+/*Variables*//*# sourceMappingURL=style.css.map */
