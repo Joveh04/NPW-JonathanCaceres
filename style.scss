@@ -57,6 +57,7 @@ nav ul li a:hover{
 }
 
 .titulo{
+
     margin-top:5%;
     margin-bottom: 2%;
     display: flex;
@@ -65,6 +66,7 @@ nav ul li a:hover{
     align-items: center;
     width: 80%;
     background-color: violet;
+    
 }
 
 footer{
@@ -101,13 +103,14 @@ section{
     color: purple;
 
 }
-@import ".import/nav.scss";
-@import ".import/inicio";
-@import ".import/conoce";
-@import ".import/servicio";
-@import ".import/maps";
-@import ".import/contacto";
-@import ".import/index";
+
+@import "./import/inicio";
+@import "./import/conoce";
+@import "./import/servicio";
+@import "./import/contacto";
+@import "./import/maps";
+@import "./import/nav";
+
 
 
 @mixin sizes($padding, $margin){
