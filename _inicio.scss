@@ -70,6 +70,9 @@
      display: grid;
      grid-template-columns: auto auto;
      grid-template-rows: auto auto auto;
+     .titulo{
+        padding: 4px;
+     }
  }
  .parrafo2{
      grid-row: 3/3;

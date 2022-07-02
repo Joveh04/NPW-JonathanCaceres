@@ -199,6 +199,9 @@ nav ul li a:hover {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
 }
+.infoIndex .titulo {
+  padding: 4px;
+}
 
 .parrafo2 {
   grid-row: 3/3;
@@ -419,4 +422,53 @@ nav ul li a:hover {
   display: flex;
 }
 
-/*Variables*//*# sourceMappingURL=style.css.map */
+/*Variables*/
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .infoIndex {
+    justify-content: center;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .titulo {
+    margin-left: 10%;
+    rid-row: 1/2;
+  }
+
+  .parrafo2 {
+    margin-left: 15%;
+    grid-row: 2/3;
+  }
+
+  .parrafo1 {
+    margin-left: 15%;
+    grid-row: 3/4;
+  }
+
+  .parrafoIndex3 {
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    font-size: 30px;
+    grid-row: 4/5;
+  }
+
+  .imagenesServicio img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .card {
+    width: 70%;
+  }
+
+  .servicioParrafo1 {
+    width: 80%;
+    padding: 2%;
+    border-radius: 1%;
+  }
+}/*# sourceMappingURL=style.css.map */
