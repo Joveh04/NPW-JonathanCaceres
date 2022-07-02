@@ -23,11 +23,16 @@ nav {
 nav .logo {
   align-items: center;
   display: flex;
+  text-decoration: none;
   margin-left: 20px;
   height: 80px;
   font-size: 50%;
   font-weight: bold;
   text-transform: uppercase;
+  color: #fff;
+}
+nav .logo a {
+  text-decoration: none;
   color: #fff;
 }
 nav ul {
@@ -48,6 +53,17 @@ nav ul li a {
 
 nav ul li a:hover {
   color: purple;
+}
+
+.titulo {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: violet;
 }
 
 footer {
@@ -163,6 +179,7 @@ nav ul li a:hover {
   width: 100%;
   background-image: url(imagenes/imagenDesarrollo.png);
   background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .card {
@@ -364,7 +381,7 @@ nav ul li a:hover {
   padding: 2%;
   background-image: url(imagenes/parallax.png);
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100% 100%;
   border-top: solid purple;
   border-bottom: solid purple;
 }
@@ -412,6 +429,23 @@ nav ul li a:hover {
 .formulario {
   margin-bottom: 5%;
   color: violet;
+}
+
+.bodyIndex {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(imagenes/imagenDesarrollo.png);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.tituloIndex {
+  margin-top: 5%;
+  background-color: rgba(243, 159, 232, 0.75);
+  color: white;
+}
+
+.tarjetaIndex a:hover {
+  color: purple;
 }
 
 .btn-twitter {
@@ -508,5 +542,13 @@ nav ul li a:hover {
 
   .formulario {
     width: 80%;
+  }
+
+  .bodyIndex {
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(imagenes/imagenDesarrollo.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
 }/*# sourceMappingURL=style.css.map */
