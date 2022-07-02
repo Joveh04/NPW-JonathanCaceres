@@ -129,7 +129,7 @@ $pink:violet;
     }
     .titulo{
         margin-left: 10%;
-        rid-row: 1/2;
+        grid-row: 1/2;
     }
     
     .parrafo2{
@@ -158,4 +158,8 @@ $pink:violet;
     padding: 2%;
     border-radius: 1%;
 }
+.buttonServicio{
+    width: 50%;
+}
+
 }

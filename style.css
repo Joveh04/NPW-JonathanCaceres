@@ -268,6 +268,12 @@ nav ul li a:hover {
   justify-content: center;
   border: solid 2px purple;
 }
+.quienSoy .quienSoyImg img {
+  padding: 10%;
+}
+.quienSoy p {
+  margin-top: 2%;
+}
 
 .titulo {
   margin-top: 5%;
@@ -436,7 +442,7 @@ nav ul li a:hover {
 
   .titulo {
     margin-left: 10%;
-    rid-row: 1/2;
+    grid-row: 1/2;
   }
 
   .parrafo2 {
@@ -470,5 +476,9 @@ nav ul li a:hover {
     width: 80%;
     padding: 2%;
     border-radius: 1%;
+  }
+
+  .buttonServicio {
+    width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
