@@ -434,6 +434,24 @@ nav ul li a:hover {
   color: purple;
 }
 
+/*Index*/
+.bodyIndex {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(imagenes/imagenDesarrollo.png);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.tituloIndex {
+  margin-top: 5%;
+  background-color: rgba(243, 159, 232, 0.75);
+  color: white;
+}
+
+.tarjetaIndex a:hover {
+  color: purple;
+}
+
 .btn-twitter {
   margin: 2%;
   padding: 1%;
