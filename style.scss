@@ -83,24 +83,33 @@ section{
 @import "./servicio";
 @import "./maps";
 
+@mixin sizes($padding, $margin){
+    margin:$margin;
+    padding: $padding;
+}
+
 .btn-twitter{
+    @include sizes(1%, 2%);
     border-radius: 4px;
     background-color: #55acee;
-    padding: 1%;
-    margin: 2%;
+    /*padding: 1%;
+    margin: 2%;*/
 }
 .btn-facebook{
+    @include sizes(1%, 2%);
     border-radius: 4px;
     background-color: #3a5795;
-    padding: 1%;
-    margin: 2%;
+    /*padding: 1%;
+    margin: 2%;*/
     
 }
+
 .btn-whatsapp{
+    @include sizes(1%, 2%);
     border-radius: 4px;
     background-color: #30c266;
-    padding: 1%;
-    margin: 2%;
+    /*padding: 1%;
+    margin: 2%;*/
 }
 .whatsApp{
     width: 50%;

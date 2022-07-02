@@ -388,24 +388,30 @@ nav ul li a:hover {
 }
 
 .btn-twitter {
+  margin: 2%;
+  padding: 1%;
   border-radius: 4px;
   background-color: #55acee;
-  padding: 1%;
-  margin: 2%;
+  /*padding: 1%;
+  margin: 2%;*/
 }
 
 .btn-facebook {
+  margin: 2%;
+  padding: 1%;
   border-radius: 4px;
   background-color: #3a5795;
-  padding: 1%;
-  margin: 2%;
+  /*padding: 1%;
+  margin: 2%;*/
 }
 
 .btn-whatsapp {
+  margin: 2%;
+  padding: 1%;
   border-radius: 4px;
   background-color: #30c266;
-  padding: 1%;
-  margin: 2%;
+  /*padding: 1%;
+  margin: 2%;*/
 }
 
 .whatsApp {
