@@ -10,11 +10,13 @@
     padding:1%;
     background-color: #000000;
 }
+
 .imagenesServicio img{
     
     margin: 1%;
     border-radius:10%;
 }
+
 .contenedorServicioParrafo1{
     display: flex;
     align-items: center;
@@ -31,6 +33,7 @@
         border-radius: 1%;
     }
 }
+
 .soluciones{
     width: 100%;
     text-align: center;
@@ -44,14 +47,17 @@
     border-top:solid purple;
     border-bottom:solid purple;
 }
+
 .parrafosGrandes1{
     text-align: center;
     font-size: 40px;
     color: purple;
 }
+
 .parrafosGrandes2{
     @extend .parrafosGrandes1;
 }
+
 .parrafosGrandes3{
     @extend .parrafosGrandes1;
 }

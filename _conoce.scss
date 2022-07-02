@@ -1,6 +1,5 @@
 /*Conoce*/
 
-
 .backgroundQuiensoy{
     display: flex;
     flex-direction: column;
@@ -38,6 +37,7 @@
     background-color: violet;
     flex-direction: column; 
 }
+
 .saberMasBackground{
     display: flex;
     flex-direction: column;
@@ -51,6 +51,7 @@
     border-radius: 2%;
     padding: 2%;
 }
+
 .parrafosObjetivosFondo{
     display: flex;
     align-items: center;
@@ -68,6 +69,7 @@
         width: 80%;
 }
 }
+
 .saberMasBackground p{
         font-size: 100%;
 }

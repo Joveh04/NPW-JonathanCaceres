@@ -99,47 +99,47 @@ section {
   color: purple;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  width: 100%;
-  height: 10%;
-  background: rgb(0, 0, 0);
-  border-bottom: solid purple;
-  justify-content: space-between;
-  grid-area: nav;
-}
-nav .logo {
-  align-items: center;
-  display: flex;
-  margin-left: 20px;
-  height: 80px;
-  font-size: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
-}
-nav ul {
-  list-style: none;
-  float: right;
-  display: flex;
-}
+/*Lo tengo guardado porque siempre sale afectado a los cambios y deseo tener el original guardado*/
+/*nav{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+    background:rgb(0, 0, 0);
+    border-bottom: solid purple;
+    justify-content: space-between; 
+    grid-area: nav;
+    .logo{
+        align-items: center;
+        display: flex;
 
-nav ul li a {
-  line-height: 80px;
-  color: #fff;
-  padding: 15px;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
+        margin-left: 20px;
+        height: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    ul{
+        list-style: none;
+        float: right;
+        display: flex
 
-nav ul li a:hover {
-  color: purple;
 }
-
+}
+nav ul li a{
+    line-height: 80px;
+    color:#fff;
+    padding:15px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color:purple;
+}*/
 /*Inicio*/
 .saludoInicial {
   display: flex;
@@ -413,6 +413,7 @@ nav ul li a:hover {
   background-color: #30c266;
 }
 
+/*Contacto*/
 .parrafoContactoBackground {
   display: flex;
   align-items: center;
@@ -431,6 +432,7 @@ nav ul li a:hover {
   color: violet;
 }
 
+/*Index*/
 .bodyIndex {
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75));
   background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(imagenes/imagenDesarrollo.png);

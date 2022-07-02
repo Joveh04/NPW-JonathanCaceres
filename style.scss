@@ -2,11 +2,13 @@
     padding: 0%;
     margin: 0%;
 }
+
 body{
     padding: 0%;
     margin: 0%;
     background-color: #fff;
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -39,6 +41,7 @@ nav{
         
 }
 }
+
 nav ul li a{
     line-height: 80px;
     color:#fff;
@@ -48,9 +51,11 @@ nav ul li a{
     font-weight: bold;
     text-transform: uppercase;
 }
+
 nav ul li a:hover{
     color:purple;
 }
+
 .titulo{
     margin-top:5%;
     margin-bottom: 2%;
@@ -61,6 +66,7 @@ nav ul li a:hover{
     width: 80%;
     background-color: violet;
 }
+
 footer{
     padding: 1%;
     font-size: 80%;
@@ -70,6 +76,7 @@ footer{
     grid-area: footer;
     margin-bottom: 0%;
 }
+
 section{
     display:flex;
     justify-content: center;
@@ -81,12 +88,15 @@ section{
 .buttonServicio{
     width: 25%; 
 }
+
 .buttonServicio a:hover{
     color: purple;
 }
+
 .buttonConoce{
     padding: 2%;
 }
+
 .buttonConoce a:hover{
     color: purple;
 
@@ -115,6 +125,7 @@ section{
     background-color: #55acee;
     
 }
+
 .btn-facebook{
     @include sizes(1%, 2%);
     border-radius: 4px;
@@ -126,10 +137,12 @@ section{
     border-radius: 4px;
     background-color: #30c266;
 }
+
 .whatsApp{
     width: 50%;
     display:flex;
 }
+
 /*Variables*/
 $pink:violet;
 
@@ -161,10 +174,12 @@ $pink:violet;
     font-size: 30px;
     grid-row: 4/5;
 }
+
 .imagenesServicio img{
     width: 120px;
     height: 120px;
 }
+
 .card{
     width: 70%;
 }
@@ -173,12 +188,15 @@ $pink:violet;
     padding: 2%;
     border-radius: 1%;
 }
+
 .buttonServicio{
     width: 50%;
 }
+
 .formulario{
     width: 80%;
 }
+
 .bodyIndex{
     background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75));
     background-image:linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),

@@ -26,6 +26,7 @@
  }  
  
  }
+
  .botones{
      display: flex;
      justify-content: center;
@@ -41,6 +42,7 @@
      background-attachment: fixed;
      background-size: 100% 100%;
  }
+
  .card{
      width: 45%;
      display: flex;
@@ -53,14 +55,17 @@
          text-align: center;
      }
  }
+
  .card-body{
      display: flex;
      align-items: center;
      flex-direction: column;
  }
+
  .card-body a:hover{
      color: purple;
  }
+
  .iconosIndex{
      width: 100%;
      background-color: violet;
@@ -75,6 +80,7 @@
         padding: 4px;
      }
  }
+
  .parrafo2{
      grid-row: 3/3;
      width: 70%;
@@ -87,6 +93,7 @@
      margin-left: 10%;
      margin-bottom: 5%;
  }
+
  .titulo{
      background-color: violet;
      margin: 5%;
@@ -96,6 +103,7 @@
      flex-direction: column;
            grid-column: 1/3;
  }
+
  .parrafo1{
      grid-row: 2/2;
      width: 70%;
@@ -108,6 +116,7 @@
      margin-left: 10%;
      margin-bottom: 5%;
  }
+ 
  .parrafoIndex3{
      grid-row: 2/4;
      font-size: 50px;
