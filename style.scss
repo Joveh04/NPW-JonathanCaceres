@@ -101,13 +101,13 @@ section{
     color: purple;
 
 }
-@import "./nav.scss";
-@import "./inicio";
-@import "./conoce";
-@import "./servicio";
-@import "./maps";
-@import "./contacto";
-@import "./index";
+@import ".import/nav.scss";
+@import ".import/inicio";
+@import ".import/conoce";
+@import ".import/servicio";
+@import ".import/maps";
+@import ".import/contacto";
+@import ".import/index";
 
 
 @mixin sizes($padding, $margin){
@@ -181,6 +181,7 @@ $pink:violet;
 }
 
 .card{
+    margin-bottom: 35%;
     width: 70%;
 }
 .servicioParrafo1{
