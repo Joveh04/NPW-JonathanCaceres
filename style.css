@@ -396,13 +396,33 @@ nav ul li a:hover {
   background-color: #30c266;
 }
 
+.parrafoContactoBackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(54, 54, 54);
+}
+.parrafoContactoBackground .ParrafoContacto {
+  padding: 2%;
+  background-color: black;
+  color: violet;
+  width: 80%;
+}
+
+.formulario {
+  margin-bottom: 5%;
+  color: violet;
+}
+
 .btn-twitter {
   margin: 2%;
   padding: 1%;
   border-radius: 4px;
   background-color: #55acee;
-  /*padding: 1%;
-  margin: 2%;*/
+}
+.btn-twitter a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn-facebook {
@@ -410,8 +430,10 @@ nav ul li a:hover {
   padding: 1%;
   border-radius: 4px;
   background-color: #3a5795;
-  /*padding: 1%;
-  margin: 2%;*/
+}
+.btn-facebook a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn-whatsapp {
@@ -419,8 +441,10 @@ nav ul li a:hover {
   padding: 1%;
   border-radius: 4px;
   background-color: #30c266;
-  /*padding: 1%;
-  margin: 2%;*/
+}
+.btn-whatsapp a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .whatsApp {
