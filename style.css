@@ -64,6 +64,7 @@ nav ul li a:hover {
   align-items: center;
   width: 80%;
   background-color: violet;
+  border-radius: 8px;
 }
 
 footer {
@@ -184,7 +185,7 @@ section {
   width: 70%;
   padding: 1%;
   border: solid 2px purple;
-  border-radius: 4%;
+  border-radius: 8px;
   color: #fff;
   background-color: #232222;
   margin: 1%;
@@ -207,7 +208,7 @@ section {
   width: 70%;
   padding: 1%;
   border: solid 2px purple;
-  border-radius: 4%;
+  border-radius: 8px;
   color: #fff;
   background-color: #232222;
   margin: 1%;
@@ -273,7 +274,7 @@ section {
   color: black;
   background-color: violet;
   width: 70%;
-  border-radius: 2%;
+  border-radius: 8px;
   padding: 2%;
 }
 
@@ -295,10 +296,6 @@ section {
   width: 80%;
 }
 
-.saberMasBackground p {
-  font-size: 100%;
-}
-
 /* Servicio*/
 .imagenesServicio {
   display: flex;
@@ -311,7 +308,7 @@ section {
 
 .imagenesServicio img {
   margin: 1%;
-  border-radius: 10%;
+  border-radius: 8px;
 }
 
 .contenedorServicioParrafo1 {
@@ -328,7 +325,7 @@ section {
   color: #fff;
   width: 60%;
   padding: 2%;
-  border-radius: 1%;
+  border-radius: 8px;
 }
 
 .soluciones {
@@ -358,6 +355,10 @@ section {
   align-items: center;
   justify-content: center;
   margin-bottom: 5%;
+}
+
+.saberMasBackground {
+  border-radius: 8px;
 }
 
 /*Contacto*/

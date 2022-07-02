@@ -14,7 +14,7 @@
 .imagenesServicio img{
     
     margin: 1%;
-    border-radius:10%;
+    border-radius:8px;
 }
 
 .contenedorServicioParrafo1{
@@ -30,7 +30,7 @@
         color: #fff;
         width: 60%;
         padding: 2%;
-        border-radius: 1%;
+        border-radius: 8px;
     }
 }
 
@@ -69,4 +69,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 5%;
+}
+.saberMasBackground{
+    border-radius: 8px;
 }
