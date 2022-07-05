@@ -106,7 +106,7 @@ section {
 }
 .card .card-header {
   background-color: #000000;
-  color: #800080;
+  color: violet;
   text-align: center;
 }
 
@@ -114,6 +114,9 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.card-body p {
+  font-size: 14px;
 }
 
 .card-body a:hover {
