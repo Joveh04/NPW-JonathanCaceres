@@ -9,53 +9,6 @@ body{
     background-color: #fff;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    width: 100%;
-    height: 10%;
-    background:rgb(0, 0, 0);
-    border-bottom: solid purple;
-    justify-content: space-between; 
-    grid-area: nav;
-    .logo{
-        align-items: center;
-        display: flex;
-        text-decoration: none;
-        margin-left: 20px;
-        height: 80px;
-        font-size: 50%;
-        font-weight: bold;
-        text-transform: uppercase;
-        color: #fff;
-        a{
-            text-decoration: none;
-            color: #fff;
-        }
-    }
-    ul{
-        list-style: none;
-        float: right;
-        display: flex
-        
-}
-}
-
-nav ul li a{
-    line-height: 80px;
-    color:#fff;
-    padding:15px;
-    text-decoration: none;
-    font-size: 50%;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-nav ul li a:hover{
-    color:purple;
-}
-
 .titulo{
 
     margin-top:5%;
@@ -180,10 +133,35 @@ $pink:violet;
     grid-row: 4/5;
 }
 /*Servicio*/
+
+.contenedorServicioParrafo1{
+   
+    .servicioParrafo1{
+        width: 90%;
+        padding: 2%;
+        border-radius: 8px;
+    }
+}
+
 .imagenesServicio img{
     width: 120px;
     height: 120px;
 }
+.imgCostos{
+    width: 80%;
+    img{
+    padding: 2%;
+    width: 150px;
+    height: 150px;
+}
+}
+.costosImg {margin-top: 4%;
+    margin-bottom: 4%;
+    img{   
+        width: 200px;}
+}
+img{   
+width: 200px;}
 
 .card{
     margin-top:15%;
@@ -191,14 +169,13 @@ $pink:violet;
     width: 70%;
 }
 
-.servicioParrafo1{
-    width: 80%;
-    padding: 2%;
-    border-radius: 1%;
-}
+
 
 .buttonServicio{
     width: 50%;
+}
+.parrafosGrandes1{
+    font-size: 24px;
 }
 
 .formulario{

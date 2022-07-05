@@ -1,5 +1,4 @@
-/*Lo tengo guardado porque siempre sale afectado a los cambios y deseo tener el original guardado*/
-
+/*Nav*/
 
 
 nav{
@@ -13,6 +12,7 @@ nav{
     justify-content: space-between; 
     grid-area: nav;
     .logo{
+        text-decoration: none;
         align-items: center;
         display: flex;
       
@@ -22,6 +22,10 @@ nav{
         font-weight: bold;
         text-transform: uppercase;
         color: #fff;
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
     }
     ul{
         list-style: none;
