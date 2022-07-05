@@ -64,19 +64,18 @@ section {
   flex-direction: column;
 }
 .saludoInicial h1 {
+  margin-top: 5%;
   color: aliceblue;
   padding: 3%;
 }
-.saludoInicial .botonConocer {
+.saludoInicial .buttonConoce {
   display: flex;
   justify-content: center;
-  padding: 8px;
-  background-image: linear-gradient(to left, black, purple);
+  padding: 10px;
   text-decoration: none;
-  color: #000000;
+  color: violet;
   border-radius: 10Px;
-  margin-top: 5%;
-  margin-left: 60%;
+  margin-bottom: 5%;
 }
 
 .botones {
@@ -93,6 +92,9 @@ section {
   background-image: url(imagenes/imagenDesarrollo.png);
   background-attachment: fixed;
   background-size: 100% 100%;
+}
+.cartaInicial .card-text {
+  color: violet;
 }
 
 .card {

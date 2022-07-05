@@ -10,18 +10,17 @@
     background-color: $color2;
     flex-direction: column; 
     h1{
+        margin-top: 5%;
      color: aliceblue;
      padding: 3%;}
-     .botonConocer{
+    .buttonConoce{
          display: flex;
          justify-content: center;
-         padding:8px ;
-         background-image: linear-gradient(to left,black,purple);
+         padding:10px ;
          text-decoration: none;
-         color: #000000;
+         color: $color2;
          border-radius: 10Px;
-         margin-top: 5%;
-         margin-left: 60%; 
+        margin-bottom: 5%;
  }  
  
  }
@@ -40,6 +39,9 @@
      background-image: url(imagenes/imagenDesarrollo.png);
      background-attachment: fixed;
      background-size: 100% 100%;
+     .card-text{
+        color:$color2;
+     }
  }
 
  .card{
