@@ -1,6 +1,5 @@
 /*Index*/
-
-
+@import "./variables";
 
 .bodyIndex{
     background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75));
@@ -15,10 +14,10 @@
 
 .tituloIndex{
     margin-top: 5%;
-    background-color: rgba(243, 159, 232, 0.75);
+    background-color: $color2;
     color: white;
 }
 
 .tarjetaIndex a:hover{
-    color: purple;    
+    color: $color1;    
     }

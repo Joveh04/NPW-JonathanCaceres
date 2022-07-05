@@ -74,7 +74,6 @@ section {
   background-image: linear-gradient(to left, black, purple);
   text-decoration: none;
   color: #000000;
-  border: solid chartreuse;
   border-radius: 10Px;
   margin-top: 5%;
   margin-left: 60%;
@@ -105,7 +104,7 @@ section {
 }
 .card .card-header {
   background-color: #000000;
-  color: purple;
+  color: #800080;
   text-align: center;
 }
 
@@ -116,7 +115,7 @@ section {
 }
 
 .card-body a:hover {
-  color: purple;
+  color: #800080;
 }
 
 .iconosIndex {
@@ -138,7 +137,7 @@ section {
   grid-row: 3/3;
   width: 70%;
   padding: 1%;
-  border: solid 2px purple;
+  border: solid 2px #800080;
   border-radius: 8px;
   color: #fff;
   background-color: #232222;
@@ -161,7 +160,7 @@ section {
   grid-row: 2/2;
   width: 70%;
   padding: 1%;
-  border: solid 2px purple;
+  border: solid 2px #800080;
   border-radius: 8px;
   color: #fff;
   background-color: #232222;
@@ -173,7 +172,7 @@ section {
 .parrafoIndex3 {
   grid-row: 2/4;
   font-size: 50px;
-  color: purple;
+  color: #800080;
   margin-top: 10%;
   margin-right: 5%;
 }
@@ -197,7 +196,7 @@ section {
   font-size: 80%;
   color: #fff;
   justify-content: center;
-  border: solid 2px purple;
+  border: solid 2px #800080;
 }
 .quienSoy .quienSoyImg img {
   padding: 10%;
@@ -247,7 +246,7 @@ section {
   background-color: #fff;
   display: flex;
   font-size: 90%;
-  color: purple;
+  color: #800080;
   width: 80%;
 }
 
@@ -276,7 +275,7 @@ section {
   padding: 2%;
 }
 .contenedorServicioParrafo1 .servicioParrafo1 {
-  background-color: purple;
+  background-color: #800080;
   color: #fff;
   width: 60%;
   padding: 2%;
@@ -293,20 +292,20 @@ section {
   background-image: url(imagenes/parallax.png);
   background-attachment: fixed;
   background-size: 100% 100%;
-  border-top: solid purple;
-  border-bottom: solid purple;
+  border-top: solid #800080;
+  border-bottom: solid #800080;
 }
 
 .costosImg {
   border-radius: 4px;
-  border: solid purple;
+  border: solid #800080;
 }
 
 .parrafosGrandes1, .parrafosGrandes3, .parrafosGrandes2 {
   padding: 2%;
   text-align: center;
   font-size: 40px;
-  color: purple;
+  color: #800080;
 }
 
 .imgCostos {
@@ -344,7 +343,7 @@ section {
 .parrafoContactoBackground .ParrafoContacto {
   padding: 2%;
   background-color: black;
-  color: violet;
+  color: #800080;
   width: 80%;
 }
 
@@ -423,12 +422,12 @@ nav ul li a:hover {
 
 .tituloIndex {
   margin-top: 5%;
-  background-color: rgba(243, 159, 232, 0.75);
+  background-color: violet;
   color: white;
 }
 
 .tarjetaIndex a:hover {
-  color: purple;
+  color: #800080;
 }
 
 .btn-twitter {
@@ -469,6 +468,7 @@ nav ul li a:hover {
   display: flex;
 }
 
+/*Variables*/
 @media (max-width: 700px) {
   nav {
     flex-direction: column;

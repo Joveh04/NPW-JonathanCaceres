@@ -1,11 +1,12 @@
 /*Conoce*/
+@import "./variables";
 
 .backgroundQuiensoy{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-color: violet;
+    background-color: $color2;
     padding: 5%;
 }
 .quienSoy{
@@ -17,7 +18,7 @@
     font-size: 80%;
     color: #fff;
     justify-content: center; 
-    border: solid 2px purple;
+    border: solid 2px $color1;
     .quienSoyImg img{
         padding: 10%;
     }
@@ -35,7 +36,7 @@
     justify-content: center;
     align-items: center;
     width: 80%;
-    background-color: violet;
+    background-color: $color2;
     flex-direction: column; 
 }
 
@@ -47,7 +48,7 @@
     justify-content: center;
     margin-bottom: 5%;
     color: black;
-    background-color: violet;
+    background-color: $color2;
     width:70%;
     border-radius: 8px;
     padding: 2%;
@@ -66,7 +67,7 @@
         background-color: #fff;
         display: flex;
         font-size: 90%;
-        color:purple;
+        color:$color1;
         width: 80%;
 }
 }

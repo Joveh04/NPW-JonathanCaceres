@@ -1,5 +1,5 @@
 /*Contacto*/
-
+@import "./variables";
 
 .parrafoContactoBackground{
     display: flex;
@@ -10,11 +10,11 @@
 .ParrafoContacto{
     padding: 2%;
     background-color:black;
-    color: violet;
+    color: $color1;
     width: 80%;
 }
 }
 .formulario{
     margin-bottom: 5%;
-    color: violet;
+    color: $color2;
 }

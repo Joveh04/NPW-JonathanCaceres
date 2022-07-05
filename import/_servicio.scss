@@ -1,5 +1,5 @@
 /* Servicio*/
-
+@import "./variables";
 
 
 .imagenesServicio{
@@ -26,7 +26,7 @@
     margin:4%;
     padding:2%;
     .servicioParrafo1{
-        background-color: purple;
+        background-color: $color1;
         color: #fff;
         width: 60%;
         padding: 2%;
@@ -44,19 +44,19 @@
     background-image: url(imagenes/parallax.png);
     background-attachment: fixed;
     background-size: 100% 100%;
-    border-top:solid purple;
-    border-bottom:solid purple;
+    border-top:solid $color1;
+    border-bottom:solid $color1;
 }
 .costosImg{
     border-radius: 4px;
-    border: solid purple;
+    border: solid $color1;
 }
 
 .parrafosGrandes1{
     padding: 2%;
     text-align: center;
     font-size: 40px;
-    color: purple;
+    color: $color1;
 }
 
 .parrafosGrandes2{

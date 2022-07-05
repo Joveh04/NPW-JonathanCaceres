@@ -1,5 +1,5 @@
 /*Inicio*/
-
+@import "./variables";
 
 
 .saludoInicial{
@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
    width: 100%;
-    background-color: violet;
+    background-color: $color2;
     flex-direction: column; 
     h1{
      color: aliceblue;
@@ -19,7 +19,6 @@
          background-image: linear-gradient(to left,black,purple);
          text-decoration: none;
          color: #000000;
-         border: solid chartreuse;
          border-radius: 10Px;
          margin-top: 5%;
          margin-left: 60%; 
@@ -51,7 +50,7 @@
      background-color: #2d2b2b;
      .card-header{
          background-color: #000000;
-         color: purple;
+         color: $color1;
          text-align: center;
      }
  }
@@ -64,12 +63,12 @@
  }
 
  .card-body a:hover{
-     color: purple;
+     color: $color1;
  }
 
  .iconosIndex{
      width: 100%;
-     background-color: violet;
+     background-color: $color2;
  
  }
  .infoIndex{
@@ -86,7 +85,7 @@
      grid-row: 3/3;
      width: 70%;
      padding: 1%;
-     border: solid 2px purple;
+     border: solid 2px $color1;
      border-radius: 8px;
      color: #fff;
      background-color: #232222;
@@ -96,7 +95,7 @@
  }
 
  .titulo{
-     background-color: violet;
+     background-color: $color2;
      margin: 5%;
      display: flex;
      justify-content: center;
@@ -109,7 +108,7 @@
      grid-row: 2/2;
      width: 70%;
      padding: 1%;
-     border: solid 2px purple;
+     border: solid 2px $color1;
      border-radius: 8px;
      color: #fff;
      background-color: #232222;
@@ -121,7 +120,7 @@
  .parrafoIndex3{
      grid-row: 2/4;
      font-size: 50px;
-     color: purple;
+     color: $color1;
      margin-top: 10%;
      margin-right: 5%;
  }
