@@ -2,12 +2,14 @@
 @import "./variables";
 
 .parrafoContactoBackground{
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color:rgb(54, 54, 54) ;
 
 .ParrafoContacto{
+    box-sizing: border-box;
     padding: 2%;
     background-color:black;
     color: $color1;
@@ -15,6 +17,7 @@
 }
 }
 .formulario{
+    box-sizing: border-box;
     margin-bottom: 5%;
     color: $color2;
 }
