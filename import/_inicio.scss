@@ -11,7 +11,7 @@
     flex-direction: column; 
     h1{
         margin-top: 5%;
-     color: aliceblue;
+     color: $color3;
      padding: 3%;}
     .buttonConoce{
          display: flex;
@@ -40,7 +40,7 @@
      background-attachment: fixed;
      background-size: 100% 100%;
      .card-text{
-        color:white;
+        color:$color3;
      }
  }
 
@@ -94,7 +94,7 @@
      padding: 1%;
      border: solid 2px $color1;
      border-radius: 8px;
-     color: #fff;
+     color: $color3;
      background-color: #232222;
      margin:1%;
      margin-left: 10%;
@@ -117,7 +117,7 @@
      padding: 1%;
      border: solid 2px $color1;
      border-radius: 8px;
-     color: #fff;
+     color: $color3;
      background-color: #232222;
      margin:1%;
      margin-left: 10%;

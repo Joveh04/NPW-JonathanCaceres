@@ -18,7 +18,7 @@
     padding: 2%;
     width: 80%;
     font-size: 80%;
-    color: #fff;
+    color: $color3;
     justify-content: center; 
     border: solid 2px $color1;
     .quienSoyImg img{
@@ -34,7 +34,7 @@
     margin-top:5%;
     margin-bottom: 2%;
     display: flex;
-    color: #fff;
+    color: $color3;
     justify-content: center;
     align-items: center;
     width: 80%;
@@ -68,7 +68,7 @@
     margin-bottom: 5%;
     .parrafosObjetivo {
         padding: 2%;
-        background-color: #fff;
+        background-color: $color3;
         display: flex;
         font-size: 90%;
         color:$color1;
