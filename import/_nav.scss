@@ -1,6 +1,6 @@
 /*Nav*/
 
-
+@import "./variables";
 nav{
     box-sizing: border-box;
     display: flex;
@@ -9,7 +9,7 @@ nav{
     width: 100%;
     height: 10%;
     background:rgb(0, 0, 0);
-    border-bottom: solid purple;
+    border-bottom: solid $color1;
     justify-content: space-between; 
     grid-area: nav;
     .logo{
@@ -22,10 +22,10 @@ nav{
         font-size: 20px;
         font-weight: bold;
         text-transform: uppercase;
-        color: #fff;
+        color: $color3;
         a{
             text-decoration: none;
-            color: #fff;
+            color: $color3;
         }
     }
     ul{
@@ -37,7 +37,7 @@ nav{
 }
 nav ul li a{
     line-height: 80px;
-    color:#fff;
+    color:$color3;
     padding:15px;
     text-decoration: none;
     font-size: 12px;
@@ -45,5 +45,5 @@ nav ul li a{
     text-transform: uppercase;
 }
 nav ul li a:hover{
-    color:purple;
+    color:$color1;
 }
