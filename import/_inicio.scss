@@ -10,7 +10,7 @@
     background-color: $color2;
     flex-direction: column; 
     h1{
-        margin-top: 5%;
+     margin-top: 5%;
      color: $color3;
      padding: 3%;}
     .buttonConoce{
@@ -49,7 +49,7 @@
      display: flex;
      margin-top: 10%;
      margin-bottom: 10%;
-     background-color: #2d2b2b;
+     background-color: $color4;
      .card-header{
          background-color: #000000;
          color: $color2;
@@ -95,7 +95,7 @@
      border: solid 2px $color1;
      border-radius: 8px;
      color: $color3;
-     background-color: #232222;
+     background-color: $color4;
      margin:1%;
      margin-left: 10%;
      margin-bottom: 5%;
@@ -118,7 +118,7 @@
      border: solid 2px $color1;
      border-radius: 8px;
      color: $color3;
-     background-color: #232222;
+     background-color: $color4;
      margin:1%;
      margin-left: 10%;
      margin-bottom: 5%;

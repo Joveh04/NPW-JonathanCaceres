@@ -102,7 +102,7 @@ section {
   display: flex;
   margin-top: 10%;
   margin-bottom: 10%;
-  background-color: #2d2b2b;
+  background-color: rgb(54, 54, 54);
 }
 .card .card-header {
   background-color: #000000;
@@ -145,7 +145,7 @@ section {
   border: solid 2px purple;
   border-radius: 8px;
   color: white;
-  background-color: #232222;
+  background-color: rgb(54, 54, 54);
   margin: 1%;
   margin-left: 10%;
   margin-bottom: 5%;
@@ -168,7 +168,7 @@ section {
   border: solid 2px purple;
   border-radius: 8px;
   color: white;
-  background-color: #232222;
+  background-color: rgb(54, 54, 54);
   margin: 1%;
   margin-left: 10%;
   margin-bottom: 5%;
@@ -278,7 +278,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #232222;
+  background-color: rgb(54, 54, 54);
   width: 100%;
   margin: 4%;
   padding: 2%;
