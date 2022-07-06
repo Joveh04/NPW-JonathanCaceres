@@ -481,7 +481,8 @@ nav ul li a:hover {
   display: flex;
 }
 
-/*Variables*/
+/*Seccion Responsive*/
+
 @media (max-width: 700px) {
   nav {
     flex-direction: column;
