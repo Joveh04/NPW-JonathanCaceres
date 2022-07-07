@@ -46,11 +46,11 @@ section {
   color: purple;
 }
 
-.buttonConoce {
+.buttonConoce, .buttonContacto {
   padding: 2%;
 }
 
-.buttonConoce a:hover {
+.buttonConoce a:hover, .buttonContacto a:hover {
   color: purple;
 }
 
@@ -68,7 +68,7 @@ section {
   color: white;
   padding: 3%;
 }
-.saludoInicial .buttonConoce {
+.saludoInicial .buttonConoce, .saludoInicial .buttonContacto {
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -317,19 +317,18 @@ section {
   color: purple;
 }
 
-.imgCostos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  padding: 1%;
-  border-radius: 8px;
-  background-color: #000000;
-}
-.imgCostos img {
-  padding: 1%;
-}
-
+/*.imgCostos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding:1%;
+    border-radius: 8px;
+    background-color: #000000;
+    img{
+        padding: 1%;
+    }
+}*/
 .botonesRedes {
   display: flex;
   width: 100%;
@@ -340,6 +339,46 @@ section {
 
 .saberMasBackground {
   border-radius: 8px;
+}
+
+.imgCostosBox {
+  display: flex;
+  justify-content: center;
+}
+
+.costosCard, .costosCard3, .costosCard2 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2%;
+  width: 20%;
+  background-color: rgb(54, 54, 54);
+  padding: 2%;
+  border-radius: 8px;
+}
+.costosCard img, .costosCard3 img, .costosCard2 img {
+  width: 90%;
+  border-radius: 8px;
+  border: solid purple;
+  margin-bottom: 2%;
+}
+.costosCard p, .costosCard3 p, .costosCard2 p {
+  color: white;
+  font-size: 14px;
+}
+
+.EnlaceContacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: violet;
+  color: #000000;
+  border-radius: 4px;
+  margin: 5%;
+  padding: 2%;
 }
 
 /*Contacto*/
@@ -581,5 +620,15 @@ nav ul li a:hover {
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+  }
+
+  .imgCostosBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .imgCostosBox .costosCard, .imgCostosBox .costosCard2, .imgCostosBox .costosCard3 {
+    width: 60%;
   }
 }/*# sourceMappingURL=style.css.map */

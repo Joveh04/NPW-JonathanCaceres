@@ -57,7 +57,9 @@ section{
     color: purple;
 
 }
-
+.buttonContacto{
+    @extend .buttonConoce
+}
 @import "./import/inicio";
 @import "./import/conoce";
 @import "./import/servicio";
@@ -201,6 +203,14 @@ width: 200px;}
     
     
 }
-
+.imgCostosBox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .costosCard{
+        width:60%;
+    }
+}
 
 }
