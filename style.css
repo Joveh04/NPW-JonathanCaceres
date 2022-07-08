@@ -16,7 +16,7 @@ body {
   color: #fff;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 60%;
   background-color: violet;
   border-radius: 8px;
 }
@@ -26,6 +26,7 @@ footer {
   font-size: 80%;
   border-top: 2px solid purple;
   background: rgb(0, 0, 0);
+  color: gray;
   grid-area: footer;
   margin-bottom: 0%;
 }
@@ -317,18 +318,6 @@ section {
   color: purple;
 }
 
-/*.imgCostos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    padding:1%;
-    border-radius: 8px;
-    background-color: #000000;
-    img{
-        padding: 1%;
-    }
-}*/
 .botonesRedes {
   display: flex;
   width: 100%;
