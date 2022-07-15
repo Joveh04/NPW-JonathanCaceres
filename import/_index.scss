@@ -11,10 +11,26 @@
 
 .tituloIndex{
     margin-top: 5%;
+    padding: 0.5%;
     background-color: $color2;
+    color: $color3;
+    border-radius: 4px;
+}
+.ParrafoIndex{
+    margin: 4%;
+    width: 80%;
+    padding: 2%;
+    border: solid $color1;
+    background-color: black;
     color: $color3;
 }
 
 .tarjetaIndex a:hover{
     color: $color1;    
     }
+
+.card{
+    background-color: $color2;
+
+
+}
